@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Markdown</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-title">
+            <h1 id="heading">Markdown generator</h1>
+            <p class="lead">Generate your markdown!</p>
+            <hr />
+        </div>
+        <form action="/markdown" method="POST" accept-charset="utf-8">
+            <div class="form-group">
+                <textarea class="form-control" name="body" rows="10" cols="30"></textarea>
+            </div>
+            <div class="form-group" id="name">
+                <input type="submit" class="btn btn-primary pull-right" value="Markdown! &rarr;">
+            </div>
+        </form>
+    </div>
+    <script src="/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
